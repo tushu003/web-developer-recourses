@@ -226,3 +226,20 @@ footer input[type="text"], input[type="email"], textarea{
     margin-bottom: 24px;
     border: none;
 }
+
+/* reaposive */
+/* Mobile device */
+
+@media screen and (max-width: 576px){
+.skills-container, .about-items, .resume-container, .footer-column{
+    flex-direction: column;
+}
+.about-items,
+.footer-container, .about{ 
+  padding: 0px;
+}
+.skill{
+    margin-bottom: 0px;
+}
+    
+}
